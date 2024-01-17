@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "horse",
+  "version": "${version}",
+  "name": "horse",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/MoorCorPa/horse"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/horse/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cn.moy84.horse.client.HorseClient"
+    ],
+    "main": [
+      "cn.moy84.horse.Horse"
+    ]
+  },
+  "mixins": [
+    "horse.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "fabric-key-binding-api-v1": "*"
+  },
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/class_1496": ["cn/moy84/horse/interfaces/HorseMixinInterface"]
+    }
+  }
+}

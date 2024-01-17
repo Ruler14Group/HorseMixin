@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-01-16 22:42:04 +0800"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-01-16 22:43:19 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}

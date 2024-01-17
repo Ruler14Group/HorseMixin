@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2024-01-16 21:45:12 +0800"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-01-16 21:46:28 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}
